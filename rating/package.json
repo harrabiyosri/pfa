@@ -1,0 +1,37 @@
+{
+  "name": "rating",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async-handler": "0.0.3",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.10",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.0-rc.1",
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.15",
+    "react-router-dom": "^6.2.1",
+    "reactjs-popup": "^2.0.5",
+    "stream": "0.0.2",
+    "util": "^0.12.4",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.18"
+  }
+}
